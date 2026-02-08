@@ -16,5 +16,6 @@ install: all
 
 clean:
 	rm -f cauqui
+	rm -f cauqui.o
 
 .PHONY: all install clean

@@ -8,7 +8,7 @@ int main()
     int segundoNum;
     int metodo;
 
-    printf("Bem vindo a calculadora! Essa é a melhor calculadora feita, simplesmente porque ela é muito\n leve e desinchada. Ela não tem suporte para operações que você literalmente nunca vai usar na sua vida.\n");
+    printf("Bem vindo ao cauqui! Essa é a melhor calculadora feita, porque ela é muito leve. Ela não tem suporte para operações que você nunca vai usar.\n");
     printf("\nprimeiro número? ");
     scanf("%d", &primeiroNum);
     printf("\nsegundo número? ");
