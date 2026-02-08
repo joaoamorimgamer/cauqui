@@ -1,2 +1,87 @@
 # cauqui
-A calculadora mais simples do mundo escrita em C
+## Sobre o cauqui
+A calculadora mais simples do mundo escrita em C. Sem operações inúteis, sem inchaço. Uma calculadora que você realmente vai querer usar na sua vida!
+
+## Pré-requisitos
+Para poder instalar o cauqui, você precisará do gcc e make instalado no seu sistema. Ele é o programa que irá ser usado para compilar o cauqui. Se você não tiver ele instalado, rode esses comandos, de acordo com qual gerenciador de pacotes você usa:
+
+<details>
+<summary>Debian e derivados</summary>
+<pre><code>sudo apt update
+sudo apt install gcc make</code></pre>
+</details>
+
+<details>
+<summary>Arch Linux e derivados</summary>
+<pre><code>sudo pacman -Sy
+sudo pacman -S gcc make</code></pre>
+</details>
+
+<details>
+<summary>Gentoo e derivados</summary>
+<pre><code>sudo emerge --ask sys-devel/gcc sys-devel/make
+sudo emaint -a sync
+</code></pre>
+</details>
+
+<details>
+<summary>Void Linux e derivados</summary>
+<pre><code>sudo xbps-install -S
+sudo xbps-install gcc make</code></pre>
+</details>
+
+<details>
+<summary>Fedora/RHEL e derivados</summary>
+<pre><code>sudo dnf update
+sudo dnf install gcc make</code></pre>
+</details>
+
+<details>
+<summary>OpenSUSE e derivados</summary>
+<pre><code>sudo zypper refresh
+sudo zypper install gcc make</code></pre>
+</details>
+
+<details>
+<summary>Alpine Linux e derivados</summary>
+<pre><code>doas apk update
+doas apk add gcc make</code></pre>
+</details>
+
+<details>
+<summary>NixOS e derivados</summary>
+<pre><code>buildInputs = [
+  pkgs.xorg.libX11
+  pkgs.xorg.libXinerama
+  pkgs.libgcc
+  pkgs.gnumake
+];
+sudo nixos-rebuild switch
+</code></pre>
+</details>
+
+<details>
+<summary>Slackware e derivados</summary>
+<pre><code>slackpkg update
+slackpkg install gcc make </code></pre>
+</details>
+
+<details>
+<summary>FreeBSD e derivados</summary>
+<pre><code>
+sudo pkg update
+sudo pkg install gcc gmake</code></pre>
+</details>
+
+## Compilação e instalação
+Felizmente, a compilação do cauqui é extremamente fácil. Apenas rode este comando (sem o cifrão):
+```bash
+$ make
+```
+Alternativamente, para compilar, instalar e remover alguns arquivos que não são mais necessários, rode isso como root (sem o jogo da velha):
+```bash
+# make clean install
+```
+
+## Pra quê esse nome?
+Se você falar cauqui em voz alta, vai perceber que parece com a palavra em inglês calc, que é uma versão simplificada da palavra calculator.
