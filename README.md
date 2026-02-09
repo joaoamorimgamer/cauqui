@@ -8,18 +8,18 @@ Para poder instalar o cauqui, você precisará do gcc e make instalado no seu si
 <details>
 <summary>Debian e derivados</summary>
 <pre><code>sudo apt update
-sudo apt install gcc make</code></pre>
+sudo apt install clang make</code></pre>
 </details>
 
 <details>
 <summary>Arch Linux e derivados</summary>
 <pre><code>sudo pacman -Sy
-sudo pacman -S gcc make</code></pre>
+sudo pacman -S clang make</code></pre>
 </details>
 
 <details>
 <summary>Gentoo e derivados</summary>
-<pre><code>sudo emerge --ask sys-devel/gcc sys-devel/make
+<pre><code>sudo emerge --ask llvm-core/clang sys-devel/make
 sudo emaint -a sync
 </code></pre>
 </details>
@@ -27,51 +27,41 @@ sudo emaint -a sync
 <details>
 <summary>Void Linux e derivados</summary>
 <pre><code>sudo xbps-install -S
-sudo xbps-install gcc make</code></pre>
+sudo xbps-install clang make</code></pre>
 </details>
 
 <details>
 <summary>Fedora/RHEL e derivados</summary>
 <pre><code>sudo dnf update
-sudo dnf install gcc make</code></pre>
+sudo dnf install clang make</code></pre>
 </details>
 
 <details>
 <summary>OpenSUSE e derivados</summary>
 <pre><code>sudo zypper refresh
-sudo zypper install gcc make</code></pre>
+sudo zypper install clang make</code></pre>
 </details>
 
 <details>
 <summary>Alpine Linux e derivados</summary>
 <pre><code>doas apk update
-doas apk add gcc make</code></pre>
-</details>
-
-<details>
-<summary>NixOS e derivados</summary>
-<pre><code>buildInputs = [
-  pkgs.xorg.libX11
-  pkgs.xorg.libXinerama
-  pkgs.libgcc
-  pkgs.gnumake
-];
-sudo nixos-rebuild switch
-</code></pre>
+doas apk add clang make</code></pre>
 </details>
 
 <details>
 <summary>Slackware e derivados</summary>
 <pre><code>slackpkg update
-slackpkg install gcc make </code></pre>
+slackpkg install clang make </code></pre>
 </details>
 
 <details>
 <summary>FreeBSD e derivados</summary>
 <pre><code>
 sudo pkg update
-sudo pkg install gcc gmake</code></pre>
+sudo pkg install clang gmake</code></pre>
 </details>
+
+Nota: A instalação do LLVM Clang é diferente no Windows. Recomendo ver <a href="https://youtube.com/watch?v=3ov8OqSxlXc">Este tutorial</a>.
 
 ## Compilação e instalação
 Felizmente, a compilação do cauqui é extremamente fácil. Apenas rode este comando (sem o cifrão):
