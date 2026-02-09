@@ -73,6 +73,8 @@ sudo pkg update
 sudo pkg install gcc gmake</code></pre>
 </details>
 
+Nota: Se você estiver no Windows, o processo é meio diferente. Recomendo ver <a href="https://www.youtube.com/watch?v=3ov8OqSxlXc">Este tutorial</a>.
+
 ## Compilação e instalação
 Felizmente, a compilação do cauqui é extremamente fácil. Apenas rode este comando (sem o cifrão):
 ```bash
