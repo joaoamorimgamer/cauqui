@@ -3,7 +3,7 @@
 A calculadora mais simples do mundo escrita em C. Sem operações inúteis, sem inchaço. Uma calculadora que você realmente vai querer usar na sua vida!
 
 ## Pré-requisitos
-Para poder instalar o cauqui, você precisará do gcc e make instalado no seu sistema. Ele é o programa que irá ser usado para compilar o cauqui. Se você não tiver ele instalado, rode esses comandos, de acordo com qual gerenciador de pacotes você usa:
+Para poder instalar o cauqui, você precisará do clang e make instalado no seu sistema. Ele é o programa que irá ser usado para compilar o cauqui. Se você não tiver ele instalado, rode esses comandos, de acordo com qual gerenciador de pacotes você usa:
 
 <details>
 <summary>Debian e derivados</summary>
