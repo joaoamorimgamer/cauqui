@@ -68,7 +68,6 @@ sudo pkg install clang gmake</code></pre>
 
 Nota: A instalação do LLVM Clang é diferente no Windows. Recomendo ver <a href="https://youtube.com/watch?v=3ov8OqSxlXc">Este tutorial</a>.
 =======
-Nota: Se você estiver no Windows, o processo é meio diferente. Recomendo ver <a href="https://www.youtube.com/watch?v=3ov8OqSxlXc">Este tutorial</a>.
 
 ## Compilação e instalação
 Felizmente, a compilação do cauqui é extremamente fácil. Apenas rode este comando (sem o cifrão):
