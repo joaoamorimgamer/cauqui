@@ -24,8 +24,8 @@ sudo apt install clang make</code></pre>
 <details>
 <summary>Arch Linux e derivados</summary>
 <pre><code>
-sudo pacman -Sy clang make</code></pre>
-<pre><code>
+sudo pacman -Sy clang make
+</code></pre>
 </details>
 
 <details>
