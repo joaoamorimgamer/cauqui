@@ -1,4 +1,4 @@
-CC	:= gcc
+CC	:= clang 
 
 SRCS	:= cauqui.c
 
@@ -8,7 +8,7 @@ PREFIX	:= /usr/local
 BINDIR	:= $(PREFIX)/bin
 
 all: $(TARGET)
-	gcc -o cauqui cauqui.c
+	clang -std=c99 -O1 -o cauqui cauqui.c
 
 install: all
 	@mkdir -p $(BINDIR)
