@@ -3,7 +3,7 @@
 A calculadora mais simples do mundo escrita em C. Sem operações inúteis, sem inchaço. Uma calculadora que você realmente vai querer usar na sua vida!
 
 ## Pré-requisitos
-Para poder instalar o cauqui, você precisará do clang e make instalado no seu sistema. Ele é o programa que irá ser usado para compilar o cauqui. Se você não tiver ele instalado, rode esses comandos, de acordo com qual gerenciador de pacotes você usa:
+Para poder instalar o cauqui, você precisará do LLVM Clang e make instalado no seu sistema. Ele é o programa que irá ser usado para compilar o cauqui. Se você não tiver ele instalado, rode esses comandos, de acordo com qual gerenciador de pacotes você usa:
 
 <details>
 <summary>Debian e derivados</summary>
@@ -66,8 +66,7 @@ sudo pkg update
 sudo pkg install clang gmake</code></pre>
 </details>
 
-Nota: A instalação do LLVM Clang é diferente no Windows. Recomendo ver <a href="https://youtube.com/watch?v=3ov8OqSxlXc">Este tutorial</a>.
-=======
+Nota: A instalação do LLVM Clang, que é a ferramenta necessária para poder compilar o cauqui é diferente no Windows. Recomendo ver <a href="https://youtube.com/watch?v=3ov8OqSxlXc">Este tutorial</a>.
 
 ## Compilação e instalação
 Felizmente, a compilação do cauqui é extremamente fácil. Apenas rode este comando (sem o cifrão):
