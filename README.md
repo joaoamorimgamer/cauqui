@@ -1,6 +1,7 @@
-# cauqui
-<img src="cauqui.png" alt="Logo do cauqui" width="250px">
-## Sobre o cauqui
+<div align="center">
+  <img src="logo.png" width="250px">
+</div>
+# Sobre o cauqui
 A calculadora mais simples do mundo escrita em C. Sem operações inúteis, sem inchaço. Uma calculadora que você realmente vai querer usar na sua vida!
 
 ## Pré-requisitos
