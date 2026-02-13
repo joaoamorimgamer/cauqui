@@ -8,13 +8,13 @@ int main()
     int segundoNum;
     int metodo;
 
-    printf("Bem vindo ao cauqui! Essa é a melhor calculadora feita, porque ela é muito leve. Ela não tem suporte para operações que você nunca vai usar.\n");
+    printf("Bem vindo ao cauqui!\n");
     printf("\nprimeiro número? ");
     scanf("%d", &primeiroNum);
     printf("\nsegundo número? ");
     scanf("%d", &segundoNum);
-    printf("Selecione um número\n (1: Adição; 2: Subtração; 3: Multiplicação; 4: Divisão)\n");
-
+    printf("\n(1: Adição; 2: Subtração; 3: Multiplicação; 4: Divisão)\n");
+    printf("Escolha um número: ");
     scanf("%d", &metodo);
     if(metodo == 1)
     {
